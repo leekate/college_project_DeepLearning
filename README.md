@@ -22,3 +22,25 @@ covid-19으로 인해 온라인 강의, 녹화 강의를 이용하는 학생들�
   Y data: 68개의 facial landmark의 x,y 좌표 값
 
 
+## Data Training:
+1) Load data
+2) Normalization:
+minmax normalization 이용
+3) Data Split:
+**Training set: 96,535
+Validation set: 41,373
+Test set: 59,104**
+
+4) Make **Resnet network**
+모델 구성:
+loss: MSE
+optimizer: Adam
+epoch: 50
+batch_size: 64
+
+![다운로드](https://user-images.githubusercontent.com/46522501/104328648-5f8f9000-552f-11eb-955d-54e337ec1b96.png)
+
+
+
+## Functions
+추가 예정
